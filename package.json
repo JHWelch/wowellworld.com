@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/app.css -o ./public/app.css --watch",
-    "build": "npx tailwindcss -i ./src/app.css -o ./public/app.css --minify"
+    "build": "npx tailwindcss -i ./src/app.css -o ./public/app.css --minify",
+    "prod": "npm run build"
   },
   "author": "Jordan Welch",
   "license": "MIT",
