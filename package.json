@@ -5,10 +5,11 @@
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/app.css -o ./public/app.css --watch"
+    "dev": "npx tailwindcss -i ./src/app.css -o ./public/app.css --watch",
+    "build": "npx tailwindcss -i ./src/app.css -o ./public/app.css --minify"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jordan Welch",
+  "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   }
