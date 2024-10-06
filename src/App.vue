@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="bg-black font-horizon text-lavendar-haze">
+  <div class="bg-black font-horizon text-lavender-haze">
     <div class="w-full bg-gradient-to-b from-black to-wowpurp min-h-screen flex justify-center">
       <div class="max-w-4xl w-full">
         <h1 class="sr-only">
@@ -36,11 +36,11 @@
             EST 2022
           </h2>
 
-          <ul class="text-lg mt-10 space-y-6 text-center text-white">
+          <ul class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-10 space-y-6 md:space-y-10 lg:space-y-14 text-center text-white md:mt-16 lg:mt-20">
             <li>
               <a
                 href="https://movies.wowellworld.com"
-                class="hover:underline"
+                class="hover:border-b-2 border-b-lavender-haze"
               >
                 Movies
               </a>
@@ -48,7 +48,7 @@
             <li>
               <a
                 href="https://games.wowellworld.com"
-                class="hover:underline"
+                class="hover:border-b-2 border-b-lavender-haze"
               >
                 Games
               </a>

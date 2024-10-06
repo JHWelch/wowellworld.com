@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         wowpurp: '#8c52ff',
-        'lavendar-haze': '#d3c2f5',
+        'lavender-haze': '#d3c2f5',
       },
       fontFamily: {
         horizon: ['Horizon', 'sans-serif'],
