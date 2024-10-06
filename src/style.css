@@ -4,9 +4,9 @@
 
 @font-face {
   font-family: Horizon;
-  src: url("fonts/horizon.otf") format("opentype");
+  src: url("./assets/fonts/horizon.otf") format("opentype");
 }
 @font-face {
   font-family: Horizon-Outlined;
-  src: url("fonts/horizon_outlined.otf") format("opentype");
+  src: url("./assets/fonts/horizon_outlined.otf") format("opentype");
 }
