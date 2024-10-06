@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# wowellworld.com
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Homepage for [wowellworld.com](https://wowellworld.com) and various projects.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Development
+
+```sh
+npm install
+```
+
+```sh
+npm run dev
+```
+
+### Linting & Fixing
+
+```sh
+npm run lint
+```
+
+```sh
+npm run fix
+```
+
+### Building
+
+This app is built to GitHub Pages on merges to `main`.
+
+To manually test a build locally to `dist`
+
+```sh
+npm run build
+```
