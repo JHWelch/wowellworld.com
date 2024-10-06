@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{ts,js,vue}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'wowpurp': '#8c52ff',
+        'lavendar-haze': '#d3c2f5',
+      },
+      fontFamily: {
+        'horizon': ['Horizon', 'sans-serif'],
+        'horizon-outlined': ['Horizon Outlined', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
