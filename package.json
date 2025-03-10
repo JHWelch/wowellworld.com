@@ -16,7 +16,7 @@
   "devDependencies": {
     "@jhwelch/eslint-config": "^3.0.0",
     "@vitejs/plugin-vue": "^5.2.1",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.12.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
