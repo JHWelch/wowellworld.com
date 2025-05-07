@@ -3,7 +3,7 @@
 
 <template>
   <div class="bg-black font-horizon text-lavender-haze">
-    <div class="w-full bg-gradient-to-b from-black to-wowpurp min-h-screen flex justify-center">
+    <div class="w-full bg-linear-to-b from-black to-wowpurp min-h-screen flex justify-center">
       <div class="max-w-4xl w-full">
         <h1 class="sr-only">
           Wowell World
