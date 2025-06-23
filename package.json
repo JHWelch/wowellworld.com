@@ -11,7 +11,7 @@
     "fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
     "@jhwelch/eslint-config": "^3.0.0",
