@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@jhwelch/eslint-config": "^3.0.0",
-    "@tailwindcss/vite": "^4.1.12",
+    "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-vue": "^6.0.1",
     "eslint": "^9.12.0",
     "postcss": "^8.5.1",
