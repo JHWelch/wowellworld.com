@@ -11,17 +11,17 @@
     "fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.22"
   },
   "devDependencies": {
-    "@jhwelch/eslint-config": "^3.0.0",
-    "@tailwindcss/vite": "^4.1.12",
+    "@jhwelch/eslint-config": "^4.0.0",
+    "@tailwindcss/vite": "^4.1.15",
     "@vitejs/plugin-vue": "^6.0.1",
     "eslint": "^9.12.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5",
-    "vue-tsc": "^2.2.10"
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "vue-tsc": "^3.1.1"
   }
 }
