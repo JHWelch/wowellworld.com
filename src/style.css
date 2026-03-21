@@ -1,11 +1,13 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-wowpurp: #8c52ff;
-  --color-lavender-haze: #d3c2f5;
+  --color-primary-dark: #F25785;
+  --color-primary-light: #F4ABBB;
 
-  --font-horizon: Horizon, sans-serif;
-  --font-horizon-outlined: Horizon Outlined, sans-serif;
+  --color-dark: #040404;
+  --color-light: #D5CCCC;
+
+  --font-coolvetica: Coolvetica, sans-serif;
 }
 
 /*
@@ -24,13 +26,22 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentcolor);
   }
+
+  :root {
+    font-family: Coolvetica, sans-serif;
+  }
 }
 
 @font-face {
-  font-family: Horizon;
-  src: url("./assets/fonts/horizon.otf") format("opentype");
+  font-family: "Coolvetica";
+  font-weight: normal;
+  font-style: normal;
+  src: url(/fonts/Coolvetica-Rg.otf) format("opentype");
 }
+
 @font-face {
-  font-family: Horizon-Outlined;
-  src: url("./assets/fonts/horizon_outlined.otf") format("opentype");
+  font-family: "Coolvetica";
+  font-weight: normal;
+  font-style: italic;
+  src: url(/fonts/Coolvetica-Rg-It.otf) format("opentype");
 }
