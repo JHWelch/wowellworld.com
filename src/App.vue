@@ -19,7 +19,7 @@ import heroImg from './assets/hero.png'
           <ul class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-10 space-y-4 md:space-y-10 lg:space-y-14 text-center text-white md:mt-16 lg:mt-20">
             <li>
               <a
-                href="https://movies.wowellworld.com"
+                href="https://movienight.club"
                 class="hover:border-b-2 border-b-primary-light text-primary-light"
               >
                 Movies
