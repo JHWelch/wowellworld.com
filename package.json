@@ -15,7 +15,7 @@
     "vue": "^3.5.31"
   },
   "devDependencies": {
-    "@jhwelch/eslint-config": "^5.0.3",
+    "@jhwelch/eslint-config": "^6.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "@vitejs/plugin-vue": "^6.0.4",
     "eslint": "^9.12.0",
