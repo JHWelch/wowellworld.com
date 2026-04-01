@@ -31,3 +31,22 @@ jobs:
 
     - name: Run Lint
       run: npm run lint
+
+  types:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v6
+
+    - name: Install Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: .nvmrc
+        cache: npm
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Run Types
+      run: npm run types
