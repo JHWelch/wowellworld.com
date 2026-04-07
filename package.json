@@ -8,7 +8,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint",
-    "fix": "npm run lint -- --fix",
+    "fix": "eslint --fix",
     "types": "vue-tsc --noEmit --project tsconfig.app.json && vue-tsc --noEmit --project tsconfig.node.json"
   },
   "dependencies": {
