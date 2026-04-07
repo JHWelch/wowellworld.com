@@ -15,17 +15,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Install Node.js
         uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Archive production artifacts
         uses: actions/upload-pages-artifact@v4
