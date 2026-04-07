@@ -13,7 +13,7 @@
     "types": "vue-tsc --noEmit --project tsconfig.app.json && vue-tsc --noEmit --project tsconfig.node.json"
   },
   "dependencies": {
-    "vue": "^3.5.31"
+    "vue": "^3.5.32"
   },
   "devDependencies": {
     "@jhwelch/eslint-config": "^6.0.0",
