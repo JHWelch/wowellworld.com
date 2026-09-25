@@ -13,17 +13,17 @@
     "types": "vue-tsc --noEmit --project tsconfig.app.json && vue-tsc --noEmit --project tsconfig.node.json"
   },
   "dependencies": {
-    "vue": "^3.5.32"
+    "vue": "^3.5.43"
   },
   "devDependencies": {
     "@jhwelch/eslint-config": "^6.0.0",
-    "@tailwindcss/vite": "^4.1.18",
-    "@vitejs/plugin-vue": "^6.0.4",
-    "eslint": "^10.8.0",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^6.0.0",
-    "vite": "^8.1.1",
-    "vue-tsc": "^3.2.5"
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "eslint": "^10.11.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
   }
 }
