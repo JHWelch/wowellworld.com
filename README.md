@@ -5,21 +5,21 @@ Homepage for [wowellworld.com](https://wowellworld.com) and various projects.
 ## Development
 
 ```sh
-pnpm install
+npm install
 ```
 
 ```sh
-pnpm run dev
+npm run dev
 ```
 
 ### Linting & Fixing
 
 ```sh
-pnpm run lint
+npm run lint
 ```
 
 ```sh
-pnpm run fix
+npm run fix
 ```
 
 ### Building
@@ -29,5 +29,5 @@ This app is built to GitHub Pages on merges to `main`.
 To manually test a build locally to `dist`
 
 ```sh
-pnpm run build
+npm run build
 ```
